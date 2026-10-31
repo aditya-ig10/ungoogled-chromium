@@ -1,0 +1,31 @@
+From: Aditya <93360691+aditya-ig10@users.noreply.github.com>
+Date: Sat, 31 Oct 2026 00:00:00 +0000
+Subject: Kamui branding
+
+Rewrite chrome/app/theme/chromium/BRANDING for the Kamui fork:
+product full/short name, company name, installer name, and copyright.
+
+---
+ chrome/app/theme/chromium/BRANDING | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+--- a/chrome/app/theme/chromium/BRANDING
++++ b/chrome/app/theme/chromium/BRANDING
+@@ -1,10 +1,10 @@
+-COMPANY_FULLNAME=The Chromium Authors
+-COMPANY_SHORTNAME=The Chromium Authors
+-PRODUCT_FULLNAME=Chromium
+-PRODUCT_SHORTNAME=Chromium
+-PRODUCT_INSTALLER_FULLNAME=Chromium Installer
+-PRODUCT_INSTALLER_SHORTNAME=Chromium Installer
+-COPYRIGHT=Copyright @LASTCHANGE_YEAR@ The Chromium Authors. All rights reserved.
++COMPANY_FULLNAME=Kamui
++COMPANY_SHORTNAME=Kamui
++PRODUCT_FULLNAME=Kamui
++PRODUCT_SHORTNAME=Kamui
++PRODUCT_INSTALLER_FULLNAME=Kamui Installer
++PRODUCT_INSTALLER_SHORTNAME=Kamui Installer
++COPYRIGHT=Copyright 2026 Aditya <93360691+aditya-ig10@users.noreply.github.com>. All rights reserved.
+ MAC_BUNDLE_ID=org.chromium.Chromium
+ MAC_CREATOR_CODE=Cr24
+ MAC_TEAM_ID=
